@@ -1,0 +1,166 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.cabeçalho{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0D0D0E;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 58px;
+}
+.cabeçalho h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.artigos{
+    font-family: 'Inter', sans-serif;
+}
+
+.artigos h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D0D0E;
+}
+.pg-inicial .container{
+   display: flex;
+}
+.pg-inicial .container .coluna{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.pg-inicial .container .coluna ~ .coluna{
+    width: 30%;
+    margin-top: 41px;
+    font-family: 'Inter', sans-serif;
+}
+.pg-inicial .artigos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pg-inicial .artigos article{
+    max-width: 287px;
+    height: 343px;
+    margin: 41px 22px 55px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pg-inicial .artigos img{
+    max-width: 286px;
+    Height: 175px;
+    border-radius: 8px;
+}
+.pg-inicial .artigos p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+}
+.pg-inicial .artigos span{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: #F6F6F6;
+    width: 106px;
+    height: 19px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pg-inicial .artigos span ~ span{
+    margin-left: 21px;
+}
+.pg-inicial .first-post h1{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-bottom: 31px;
+    color: #0D0D0E;
+}
+.pg-inicial .coluna ~ .coluna img{
+    width: 70px;
+    height: 58px;
+    border-radius: 8px;
+}
+.pg-inicial .first-post h2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0D0D0E;
+    margin-left: 17px;
+}
+.pg-inicial .second-post h1{
+    margin-top: 35px;
+    margin-bottom: 31px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #0D0D0E;
+}
+.pg-inicial .second-post h2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0D0D0E;
+    margin-left: 17px;
+}
+.pg-inicial .coluna ~ .coluna article{
+    max-width: 298px;
+    height: 58px;
+    box-sizing: border-box;
+}
+.pg-inicial .coluna article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}
+footer{
+    background: #0D0D0E;
+    width: 100%;
+    height: 105px;
+}
+footer h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F3F4F5;
+    display: flex;
+    align-items: center;
+    height: 105px;
+    width: 100%;
+}
+footer .rodape .facebook-logo{
+    width: 11px;
+    height: 20px;
+    padding: 49px;
+}
+footer .rodape .instagram-logo{
+    width: 20px;
+    height: 20px;
+    padding: 49px;
+}
+footer .rodape .twitch-logo{
+    width: 18px;
+    height: 20px;
+    padding: 49px;
+}
+.rodape{
+    height: 105px;
+    display: flex;
+}
+footer .rodape .logos{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
